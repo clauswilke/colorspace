@@ -23,7 +23,7 @@ desaturate <- function(col, amount = 1) {
   
   ## convert to HCL and remove chroma
   col <- as(col, "polarLUV")
-  col@coords[, 2L] <- amount*col@coords[, 2L]
+  col@coords[, 2L] <- (1 - amount) *col@coords[, 2L]
   
   ## fix-up extreme luminance cases
   col@coords[col@coords[, 1L] <= 0 | col@coords[, 1L] >= 100, 2L:3L] <- 0

@@ -6,7 +6,7 @@ a49529b2bdafbcfc0869b390f3950fb3 *NEWS
 978b104e07b409071a425bd451368219 *R/choose_palette.R
 ba5247bc85c14fadddac7d83c4c642b6 *R/colorspace.R
 c56df443ebfd4c8e70b5eca059415cfa *R/definitions.R
-2e6ae9282ed5b597820c2c14affddfd8 *R/desaturate.R
+0a481546343cf71ff883cbd907145843 *R/desaturate.R
 fd8bbd29c876b712ed546dc477a3c8b6 *R/palettes.R
 1b19cbc0541210963e5b39fd96ec9a20 *R/specplot.R
 1ae79dea9be7f15e187adf4beae11eb0 *build/partial.rdb
